@@ -33,6 +33,36 @@ class MyApp extends StatelessWidget {
               },
               child: const Text("1"),
             ),
+            ElevatedButton(
+              onPressed: () {
+                print('Hello world!');
+              },
+              child: const Text("2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                print('Hello world!');
+              },
+              child: const Text("2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                print('Hello world!');
+              },
+              child: const Text("3"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                print('Hello world!');
+              },
+              child: const Text("4"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                print('Hello world!');
+              },
+              child: const Text("5"),
+            ),
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(
