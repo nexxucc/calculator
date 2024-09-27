@@ -22,4 +22,4 @@ It's just a calculator!
 
 * Twitter: [@JainVansh1609](https://twitter.com/JainVansh1609)
 * Github: [@nexxucc](https://github.com/nexxucc)
-* LinkedIn: [@vansh-jain-13144b288](https://linkedin.com/in/vansh-jain-13144b288
+* LinkedIn: [@vansh-jain-13144b288](https://linkedin.com/in/vansh-jain-13144b288)
