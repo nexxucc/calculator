@@ -1,17 +1,32 @@
-# calculator
+<h1 align="center">Welcome to calculator 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/calculator" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/calculator.svg">
+  </a>
+  <a href="https://twitter.com/JainVansh1609" target="_blank">
+    <img alt="Twitter: JainVansh1609" src="https://img.shields.io/twitter/follow/JainVansh1609.svg?style=social" />
+  </a>
+</p>
 
-A new Flutter project.
+> A basic calculator app which is developed using Flutter. 
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter application.
+```sh
+It's just a calculator!
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Author
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+👤 **Vansh Jain**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# calculator
+* Twitter: [@JainVansh1609](https://twitter.com/JainVansh1609)
+* Github: [@nexxucc](https://github.com/nexxucc)
+* LinkedIn: [@vansh-jain-13144b288](https://linkedin.com/in/vansh-jain-13144b288)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
