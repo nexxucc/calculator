@@ -22,46 +22,65 @@ class MyApp extends StatelessWidget {
             ),
           ),
         ),
-        body: Row(
+        body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
-            ObscuredTextFieldSample(),
-            ElevatedButton(
-              onPressed: () {
-                print('Hello world!');
-              },
-              child: const Text("1"),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print('Hello world!');
-              },
-              child: const Text("2"),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print('Hello world!');
-              },
-              child: const Text("2"),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print('Hello world!');
-              },
-              child: const Text("3"),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print('Hello world!');
-              },
-              child: const Text("4"),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print('Hello world!');
-              },
-              child: const Text("5"),
+            Container(
+              width: double.infinity,
+              height: 200,
+              decoration: BoxDecoration(),
+              child: Align(
+                alignment: AlignmentDirectional(1, 1),
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 16, 0),
+                  child: SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Text('0'),
+                        ElevatedButton(
+                          onPressed: () {
+                            print('Hello world!');
+                          },
+                          child: const Text("1"),
+                        ),
+                        ElevatedButton(
+                          onPressed: () {
+                            print('Hello world!');
+                          },
+                          child: const Text("2"),
+                        ),
+                        ElevatedButton(
+                          onPressed: () {
+                            print('Hello world!');
+                          },
+                          child: const Text("2"),
+                        ),
+                        ElevatedButton(
+                          onPressed: () {
+                            print('Hello world!');
+                          },
+                          child: const Text("3"),
+                        ),
+                        ElevatedButton(
+                          onPressed: () {
+                            print('Hello world!');
+                          },
+                          child: const Text("4"),
+                        ),
+                        ElevatedButton(
+                          onPressed: () {
+                            print('Hello world!');
+                          },
+                          child: const Text("5"),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
             ),
           ],
         ),
@@ -85,20 +104,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class ObscuredTextFieldSample extends StatelessWidget {
-  const ObscuredTextFieldSample({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return const SizedBox(
-      width: 250,
-      child: TextField(
-        obscureText: false,
-        decoration: InputDecoration(
-          border: OutlineInputBorder(),
-          labelText: null,
-        ),
-      ),
-    );
-  }
-}
