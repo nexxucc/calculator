@@ -354,22 +354,22 @@ class MyApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    // Container(
-                    //   width: 100,
-                    //   height: 100,
-                    //   decoration: const BoxDecoration(
-                    //     color: Color(0xFF343436),
-                    //     shape: BoxShape.circle,
-                    //   ),
-                    //   child: const Align(
-                    //     alignment: AlignmentDirectional(0, 0),
-                    //     child: Icon(
-                    //       Icons.calculate,
-                    //       color: Colors.white,
-                    //       size: 24,
-                    //     ),
-                    //   ),
-                    // ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: const BoxDecoration(
+                        color: Color(0xFF343436),
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Align(
+                        alignment: AlignmentDirectional(0, 0),
+                        child: Icon(
+                          Icons.calculate,
+                          color: Colors.white,
+                          size: 24,
+                        ),
+                      ),
+                    ),
                     Container(
                       width: 500,
                       height: 100,
