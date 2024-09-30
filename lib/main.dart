@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
                         child: Text(
                           'AC',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 30,
                             letterSpacing: 0.0,
                           ),
@@ -84,14 +84,8 @@ class MyApp extends StatelessWidget {
                       ),
                       child: const Align(
                         alignment: AlignmentDirectional(0, 0),
-                        child: Text(
-                          '+/-',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 30,
-                            letterSpacing: 0.0,
-                          ),
-                        ),
+                        child: Icon(Icons.backspace,
+                            color: Colors.black, size: 30),
                       ),
                     ),
                     Container(
@@ -106,7 +100,7 @@ class MyApp extends StatelessWidget {
                         child: Text(
                           '%',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontSize: 30,
                             letterSpacing: 0.0,
                           ),
@@ -360,24 +354,24 @@ class MyApp extends StatelessWidget {
                         ),
                       ),
                     ),
+                    // Container(
+                    //   width: 100,
+                    //   height: 100,
+                    //   decoration: const BoxDecoration(
+                    //     color: Color(0xFF343436),
+                    //     shape: BoxShape.circle,
+                    //   ),
+                    //   child: const Align(
+                    //     alignment: AlignmentDirectional(0, 0),
+                    //     child: Icon(
+                    //       Icons.calculate,
+                    //       color: Colors.white,
+                    //       size: 24,
+                    //     ),
+                    //   ),
+                    // ),
                     Container(
-                      width: 100,
-                      height: 100,
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF343436),
-                        shape: BoxShape.circle,
-                      ),
-                      child: const Align(
-                        alignment: AlignmentDirectional(0, 0),
-                        child: Icon(
-                          Icons.calculate,
-                          color: Colors.white,
-                          size: 24,
-                        ),
-                      ),
-                    ),
-                    Container(
-                      width: 100,
+                      width: 500,
                       height: 100,
                       decoration: const BoxDecoration(
                         color: Color(0xFF343436),
