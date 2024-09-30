@@ -366,7 +366,7 @@ class MyApp extends StatelessWidget {
                         child: Icon(
                           Icons.calculate,
                           color: Colors.white,
-                          size: 24,
+                          size: 30,
                         ),
                       ),
                     ),
